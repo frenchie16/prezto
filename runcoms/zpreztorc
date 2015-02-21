@@ -3,6 +3,7 @@
 #
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
+#   John French <jdaviesf7@gmail.com>
 #
 
 #
@@ -36,10 +37,11 @@ zstyle ':prezto:load' pmodule \
 
 #
 # Editor
+# bindkey -M viins '^X,', 
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'emacs'
+zstyle ':prezto:module:editor' key-bindings 'vi'
 
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
