@@ -12,7 +12,9 @@
 #
 
 emulate sh
-. ~/.profile
+if [ -f ~/.profile ]
+	. ~/.profile
+fi
 emulate zsh
 
 #
