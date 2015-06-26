@@ -6,6 +6,15 @@
 #   John French <jdaviesf7@gmail.com>
 #
 
+
+#
+# .profile
+#
+
+emulate sh
+. ~/.profile
+emulate zsh
+
 #
 # Browser
 #
